@@ -21,30 +21,12 @@ The system performs transaction analysis, fraud classification, anomaly detectio
 - 📥 Download Prediction Results
 - 📉 Interactive Charts and Visualizations
 
-# System Architecture
+# Machine Learning Models
 
-'''
-                    Transaction Data
-                           │
-                           ▼
-                 Data Preprocessing
-                           │
-                           ▼
-                 Feature Engineering
-                           │
-        ┌──────────────────┼──────────────────┐
-        ▼                  ▼                  ▼
-  K-Means Clustering  Isolation Forest   Random Forest
-        │                  │                  │
-        └──────────────┬───┴──────────────────┘
-                       ▼
-                  LightGBM Model
-                       │
-                       ▼
-              Fraud Probability
-                       │
-                       ▼
-              SHAP Explainability
-                       │
-                       ▼
-             Streamlit Dashboard
+| Model | Purpose |
+|--------|----------|
+| Random Forest | Fraud Classification |
+| LightGBM | High Accuracy Prediction |
+| Isolation Forest | Anomaly Detection |
+| K-Means | Customer Segmentation |
+| SHAP | Model Explainability |
