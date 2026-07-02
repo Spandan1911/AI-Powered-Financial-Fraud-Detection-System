@@ -1,9 +1,9 @@
 # AI-Powered-Financial-Fraud-Detection-System
-An AI-powered financial fraud detection system using K-Means, Isolation Forest, Random Forest, LightGBM, and SHAP Explainability with an interactive Streamlit dashboard.
+- An AI-powered financial fraud detection system using K-Means, Isolation Forest, Random Forest, LightGBM, and SHAP Explainability with an interactive Streamlit dashboard.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 📌 Overview
 
-Financial fraud has become one of the biggest challenges in the banking and fintech industry. Traditional rule-based systems often fail to detect evolving fraud patterns, resulting in financial losses and reduced customer trust.
+- Financial fraud has become one of the biggest challenges in the banking and fintech industry. Traditional rule-based systems often fail to detect evolving fraud patterns, resulting in financial losses and reduced customer trust.
 This project presents an **AI-Powered Financial Fraud Detection System** that combines **supervised learning**, **unsupervised anomaly detection**, and **Explainable AI (XAI)** to accurately identify fraudulent transactions while providing interpretable predictions through an interactive **Streamlit** web application.
 The system performs transaction analysis, fraud classification, anomaly detection, customer segmentation, and risk assessment using multiple machine learning models.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -82,16 +82,16 @@ The system performs transaction analysis, fraud classification, anomaly detectio
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ⚙️ How It Works
 
-Step 1 — User uploads a transaction dataset or enters transaction details manually
-Step 2 — Transaction data is cleaned and preprocessed
-Step 3 — Features are normalized using StandardScaler
-Step 4 — K-Means groups similar transactions into clusters
-Step 5 — Isolation Forest detects anomalous transactions
-Step 6 — Random Forest predicts whether the transaction is fraudulent
-Step 7 — LightGBM calculates fraud probability and improves prediction accuracy
-Step 8 — SHAP explains which features contributed most to the prediction
-Step 9 — Results are displayed on an interactive Streamlit dashboard
-Step 10 — Users can download fraud prediction results as a CSV file
+- Step 1 — User uploads a transaction dataset or enters transaction details manually
+- Step 2 — Transaction data is cleaned and preprocessed
+- Step 3 — Features are normalized using StandardScaler
+- Step 4 — K-Means groups similar transactions into clusters
+- Step 5 — Isolation Forest detects anomalous transactions
+- Step 6 — Random Forest predicts whether the transaction is fraudulent
+- Step 7 — LightGBM calculates fraud probability and improves prediction accuracy
+- Step 8 — SHAP explains which features contributed most to the prediction
+- Step 9 — Results are displayed on an interactive Streamlit dashboard
+- Step 10 — Users can download fraud prediction results as a CSV file
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🔍 Key Findings / Output
 - Fraud Prediction (Fraud / Genuine)
