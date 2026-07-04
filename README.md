@@ -144,3 +144,8 @@ The system performs transaction analysis, fraud classification, anomaly detectio
 - cd fraud_detection_system
 - pip install -r requirements.txt
 - streamlit run app.py
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Dataset Download
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
